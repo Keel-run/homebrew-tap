@@ -4,27 +4,27 @@
 class Keel < Formula
   desc "Command-line interface of keel.run, the EU developer cloud"
   homepage "https://keel.run"
-  version "0.1.28"
+  version "0.1.29"
 
   on_macos do
     on_arm do
-      url "https://keel.run/download/cli/v0.1.28/keel_darwin_arm64.tar.gz"
-      sha256 "3ea144bdf50b1cb47d3bd57e813f43268dc029129e42b5ea1b677887e5d23c9b"
+      url "https://keel.run/download/cli/v0.1.29/keel_darwin_arm64.tar.gz"
+      sha256 "3a66599156f9e15fd9d6a4d44ce1843750413d98153ab8467d4455036c961694"
     end
     on_intel do
-      url "https://keel.run/download/cli/v0.1.28/keel_darwin_amd64.tar.gz"
-      sha256 "3596b2532f621b617cb0ed61ca8571b34716b53afd19134c53c4325f1370ce99"
+      url "https://keel.run/download/cli/v0.1.29/keel_darwin_amd64.tar.gz"
+      sha256 "2723ed80a0037b7c4fbd55c5a6179f8c4deee5e09d594a059cd35f4386ee591f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://keel.run/download/cli/v0.1.28/keel_linux_arm64.tar.gz"
-      sha256 "a6bbdc8969d84034cc547c1b7c3e8b80c14e2073fea763337f73eaa0e479e319"
+      url "https://keel.run/download/cli/v0.1.29/keel_linux_arm64.tar.gz"
+      sha256 "a2272215960624ccef9b0d9a9c673ab06a44d9770fa765f27e1178666d9ea8d2"
     end
     on_intel do
-      url "https://keel.run/download/cli/v0.1.28/keel_linux_amd64.tar.gz"
-      sha256 "5f62ad2c073c07f29f988be2b81c812613b976eae45fce9851cd8cf3c1d5800f"
+      url "https://keel.run/download/cli/v0.1.29/keel_linux_amd64.tar.gz"
+      sha256 "455963ac63650f19806394d030e888dc88bdb2c32e33afb5f8d02176773027d7"
     end
   end
 
